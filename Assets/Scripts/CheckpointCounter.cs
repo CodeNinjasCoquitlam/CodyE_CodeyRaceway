@@ -5,11 +5,11 @@ using UnityEngine;
 public class CheckpointCounter : MonoBehaviour
 {
     public int numberOfCheckpoints;
-    public int triggerCheckpoints;
-
+    public int triggeredCheckpoints;
+    // Start is called before the first frame update
     void Start()
     {
-        numberOfCheckpoints = 4;
+        numberOfCheckpoints = GameObject.FindGameObjectsWithTag("Checkpoint").Length;
     }
 
     // Update is called once per frame

@@ -9,13 +9,18 @@ public class TriggerFinishLine : MonoBehaviour
 
  private void OnCollisionEnter(Collision other)
     {
-        if(checkpointTracker.triggerCheckpoints == checkpointTracker.numberOfCheckpoints && other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Win");
+            if (checkpointTracker.triggeredCheckpoints == checkpointTracker.numberOfCheckpoints)
+            {
+                SceneManager.LoadScene("Win");
+            }
+            else
+            {
+                print("Cheater!");
+            }
+            
         }
-        else
-        {
-            print("Cheater");
-        }
+        
     }
 }

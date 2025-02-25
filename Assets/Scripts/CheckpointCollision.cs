@@ -6,16 +6,24 @@ public class CheckpointCollision : MonoBehaviour
 {
     public bool didCollide;
     public CheckpointCounter count;
+    // Start is called before the first frame update
     void Start()
     {
         didCollide = false;
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" && didCollide == false)
         {
             didCollide = true;
-            count.triggerCheckpoints++;
+            count.triggeredCheckpoints++;
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
