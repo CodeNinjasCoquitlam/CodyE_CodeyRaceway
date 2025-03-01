@@ -13,7 +13,7 @@ public class TriggerFinishLine : MonoBehaviour
         {
             if (checkpointTracker.triggeredCheckpoints == checkpointTracker.numberOfCheckpoints)
             {
-                SceneManager.LoadScene("Win");
+                print("Win!");
             }
             else
             {

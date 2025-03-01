@@ -895,7 +895,6 @@ GameObject:
   - component: {fileID: 5162232971360506}
   - component: {fileID: 8514121677792612597}
   - component: {fileID: 5364036212773886161}
-  - component: {fileID: -1233870160693237836}
   - component: {fileID: -7967128426393892677}
   m_Layer: 0
   m_Name: NavMeshShell
@@ -941,6 +940,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!135 &8514121677792612597
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -970,18 +970,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1233870160693237836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6753617674297473082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c56f2d592256440408b396e309bb163a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &-7967128426393892677
 NavMeshAgent:
   m_ObjectHideFlags: 0

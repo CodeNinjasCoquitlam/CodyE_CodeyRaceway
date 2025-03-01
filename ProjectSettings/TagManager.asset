@@ -7,6 +7,7 @@ TagManager:
   - PowerupBox
   - Shell
   - Checkpoint
+  - Obstacle
   layers:
   - Default
   - TransparentFX
