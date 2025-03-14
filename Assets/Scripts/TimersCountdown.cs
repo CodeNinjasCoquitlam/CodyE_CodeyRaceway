@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimersCountdown : MonoBehaviour
 {
@@ -36,7 +37,7 @@ public class TimersCountdown : MonoBehaviour
 
         if (totalLapTime < 0)
         {
-            print("Time's Up!");
+            SceneManager.LoadScene("Lost");
         }
     }
 }

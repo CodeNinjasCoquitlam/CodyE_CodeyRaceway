@@ -9,7 +9,7 @@ public class Respawn : MonoBehaviour
     {
         if(other.gameObject.tag == "Terrain")
         {
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("CodeyRaceway");
         }
     }
 }

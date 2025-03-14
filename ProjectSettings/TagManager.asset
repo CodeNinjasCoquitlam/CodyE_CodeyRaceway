@@ -8,6 +8,8 @@ TagManager:
   - Shell
   - Checkpoint
   - Obstacle
+  - Outside
+  - Terrain
   layers:
   - Default
   - TransparentFX

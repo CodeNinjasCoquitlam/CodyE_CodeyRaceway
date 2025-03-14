@@ -895,6 +895,7 @@ GameObject:
   - component: {fileID: 5162232971360506}
   - component: {fileID: 2890015680055746488}
   - component: {fileID: 2673324289315368697}
+  - component: {fileID: -5503884744566214795}
   m_Layer: 0
   m_Name: BigPowerup
   m_TagString: Shell
@@ -969,6 +970,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5503884744566214795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753617674297473082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f201846d5f9712f4d8b0fda2fc8a1d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6861681153245785469
 GameObject:
   m_ObjectHideFlags: 0

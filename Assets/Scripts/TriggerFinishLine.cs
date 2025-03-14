@@ -13,11 +13,11 @@ public class TriggerFinishLine : MonoBehaviour
         {
             if (checkpointTracker.triggeredCheckpoints == checkpointTracker.numberOfCheckpoints)
             {
-                print("Win!");
+                SceneManager.LoadScene("Win");
             }
             else
             {
-                print("Cheater!");
+                SceneManager.LoadScene("Lost");
             }
             
         }
